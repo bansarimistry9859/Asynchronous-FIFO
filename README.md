@@ -1,10 +1,5 @@
 This repository contains the Verilog implementation of an Asynchronous FIFO, designed for reliable data transfer between two independent clock domains.
-The project includes:
--FIFO RTL design
--Write and Read pointer logic
--Synchronizers for clock domain crossing
--Full/Empty flag generation
--Testbench for verification
+The project includes:FIFO RTL design,Write and Read pointer logic,Synchronizers for clock domain crossing,Full/Empty flag generation,Testbench for verification.
 
 Project Overview
 
