@@ -1,0 +1,96 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do asyncfifo_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/IntelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA/ASYNC\ FIFO\ D {D:/intelFPGA/ASYNC FIFO D/synchronizer.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:22:58 on Oct 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA/ASYNC FIFO D" D:/intelFPGA/ASYNC FIFO D/synchronizer.v 
+# -- Compiling module synchronizer
+# 
+# Top level modules:
+# 	synchronizer
+# End time: 11:22:58 on Oct 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA/ASYNC\ FIFO\ D {D:/intelFPGA/ASYNC FIFO D/wptr_handler.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:22:58 on Oct 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA/ASYNC FIFO D" D:/intelFPGA/ASYNC FIFO D/wptr_handler.v 
+# -- Compiling module wptr_handler
+# 
+# Top level modules:
+# 	wptr_handler
+# End time: 11:22:59 on Oct 04,2025, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA/ASYNC\ FIFO\ D {D:/intelFPGA/ASYNC FIFO D/rptr_handler.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:22:59 on Oct 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA/ASYNC FIFO D" D:/intelFPGA/ASYNC FIFO D/rptr_handler.v 
+# -- Compiling module rptr_handler
+# 
+# Top level modules:
+# 	rptr_handler
+# End time: 11:22:59 on Oct 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA/ASYNC\ FIFO\ D {D:/intelFPGA/ASYNC FIFO D/fifo_mem.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:22:59 on Oct 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA/ASYNC FIFO D" D:/intelFPGA/ASYNC FIFO D/fifo_mem.v 
+# -- Compiling module fifo_mem
+# 
+# Top level modules:
+# 	fifo_mem
+# End time: 11:22:59 on Oct 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA/ASYNC\ FIFO\ D {D:/intelFPGA/ASYNC FIFO D/asyncfifo.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:22:59 on Oct 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA/ASYNC FIFO D" D:/intelFPGA/ASYNC FIFO D/asyncfifo.v 
+# -- Compiling module asyncfifo
+# 
+# Top level modules:
+# 	asyncfifo
+# End time: 11:22:59 on Oct 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+D:/intelFPGA/ASYNC\ FIFO\ D {D:/intelFPGA/ASYNC FIFO D/asyncfifo_tb.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 11:22:59 on Oct 04,2025
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+D:/intelFPGA/ASYNC FIFO D" D:/intelFPGA/ASYNC FIFO D/asyncfifo_tb.v 
+# -- Compiling module asyncfifo_tb
+# 
+# Top level modules:
+# 	asyncfifo_tb
+# End time: 11:22:59 on Oct 04,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs="+acc"  asyncfifo_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cyclonev_ver -L cyclonev_hssi_ver -L cyclonev_pcie_hip_ver -L rtl_work -L work -voptargs=""+acc"" asyncfifo_tb 
+# Start time: 11:22:59 on Oct 04,2025
+# Loading work.asyncfifo_tb
+# Loading work.asyncfifo
+# Loading work.synchronizer
+# Loading work.wptr_handler
+# Loading work.rptr_handler
+# Loading work.fifo_mem
+# 
+# add wave *
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+# ** Note: $stop    : D:/intelFPGA/ASYNC FIFO D/asyncfifo_tb.v(67)
+#    Time: 145 ns  Iteration: 0  Instance: /asyncfifo_tb
+# Break in Module asyncfifo_tb at D:/intelFPGA/ASYNC FIFO D/asyncfifo_tb.v line 67
+# End time: 11:23:38 on Oct 04,2025, Elapsed time: 0:00:39
+# Errors: 0, Warnings: 0
